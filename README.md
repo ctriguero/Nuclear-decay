@@ -8,4 +8,8 @@
 
 Use **N1_Radioactivity_2020529.cpp** for 1 nucleus calculations. The histogram funccionality is not implemented inside yet. You can use **2020608_Integer_Histogram.cpp** for post-processing the duration histogram.
 
+Compilation. In both cases ca be compiled directly with the g++ C++ compiler.
+
+**N1_Radioactivity_2020529.cpp** you can choose the decay probability p=1/s setting s.
+
 ## (2) Decay of an arbitrary number of nucleus.
