@@ -10,6 +10,6 @@ Use **N1_Radioactivity_2020529.cpp** for 1 nucleus calculations. The histogram f
 
 Compilation. In both cases ca be compiled directly with the g++ C++ compiler.
 
-**N1_Radioactivity_2020529.cpp** you can choose the decay probability p=1/s setting s.
+**N1_Radioactivity_2020529.cpp** the only parameters you can set is the *decay probability* p=1/s setting s and the *number of realizations*.
 
 ## (2) Decay of an arbitrary number of nucleus.
