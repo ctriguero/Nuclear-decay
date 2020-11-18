@@ -8,7 +8,9 @@
 
 **N1_Radioactivity_2020529.cpp**: Use this program for 1 nucleus calculations. The histogram functionality is not implemented inside yet. You can use **2020608_Integer_Histogram.cpp** for post-processing the duration histogram. Compilation. In both cases ca be compiled directly with the g++ C++ compiler. The only parameters you can set is the *decay probability* p=1/s setting s and the *number of realizations*.
 
-After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights the distribution in order to get the correct number. For example in a normal dice. The event of getting one is measured over several trials and the following results are obtained:
+After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights the distribution in order to get the correct distribution. If you roll the die 10 times yo can obtain: 
+
+10 times the result 1 roll. Only 5 times the result 2 rolls. etc etc, Only 1 times the result 10 rolls. This is unfair. To have the same possibilities for all the possible results we can multiplicate the frequency times the number of rolls. In this way the reweighted distribution is properly calculation. The price to pay is larger fluctuations when the number of rolls grow. If the number of rolls i large the error or fluctuations in the distribution es larger. For example in a normal die. The event of getting one is measured over several trials and the following results are obtained:
 
 Number of rolls to get 1  |  Frequency     | Reweighted distribution
 ----------------------------------------------------------------------
