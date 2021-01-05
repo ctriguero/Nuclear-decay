@@ -25,4 +25,4 @@ Number of rolls to get 1  |  Frequency     | Reweighted distribution
 9                         |  2             |  9 * 2=18
 10                        |  0             |  10 * 0=0
 
-## (2) Decay of an arbitrary number of nucleus.
+## (2) Decay of an arbitrary number of nuclei.
