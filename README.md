@@ -12,17 +12,17 @@ After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights t
 
 If you roll the die 10 times you can obtain: 10 times the result 1 roll. Only 5 times the result 2 rolls. etc etc, Only 1 times the result 10 rolls. This is unfair. To have the same possibilities for all the possible results we can multiplicate the frequency times the number of rolls. In this way the reweighted distribution is properly calculated. The price to pay is larger fluctuations in the distribution when the number of rolls grow. If the number of rolls i large the error or fluctuations in the distribution es larger. For example in a normal die. The event of getting one is measured over several trials and the following results are obtained:
 
-Number of rolls to get 1  |  Frequency     | Reweighted distribution
-----------------------------------------------------------------------
-1                         |  10            |  1 * 10=10
-2                         |  6             |  2 * 6=12
-3                         |  4             |  3 * 4=12
-4                         |  3             |  4 * 3=12
-5                         |  2             |  5 * 2=10
-6                         |  1             |  6 * 1=6
-7                         |  0             |  7 * 0=0
-8                         |  1             |  8 * 1=8
-9                         |  2             |  9 * 2=18
-10                        |  0             |  10 * 0=0
+| Number of rolls to get 1  |  Frequency     | Reweighted distribution |
+|----------------------------------------------------------------------|
+|1                          |  10            |  1 * 10=10              |
+|2                          |  6             |  2 * 6=12               |
+|3                          |  4             |  3 * 4=12               |
+|4                          |  3             |  4 * 3=12               |
+|5                          |  2             |  5 * 2=10               |
+|6                          |  1             |  6 * 1=6                |
+|7                          |  0             |  7 * 0=0                |
+|8                          |  1             |  8 * 1=8                |
+|9                          |  2             |  9 * 2=18               |
+|10                         |  0             |  10 * 0=0               |
 
 ## (2) Decay of an arbitrary number of nuclei.
