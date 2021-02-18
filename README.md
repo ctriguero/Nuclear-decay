@@ -3,7 +3,7 @@
 
 ## (1) Decay of one nucleus.
 
-- Learn how to obtain the **distribution of durations**, D(t), for different decay probabilities.\\
+- Learn how to obtain the **distribution of durations**, D(t), for different decay probabilities.
 The duration is the time you have to wait for the nucleus to decay.
 - Compare the obtained distributions with the **[binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution#:~:text=In%20probability%20theory%20and%20statistics,%2Fone%20(with%20probability%20p))**. Fit parameters.
 
