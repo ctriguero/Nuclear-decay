@@ -25,7 +25,11 @@ If you roll the die 10 times you can obtain: 10 times the result 1 roll. Only 5 
 
 **N1_Radioactivity_2020529.cpp**: Use this program for 1 nucleus calculations. The histogram functionality is not implemented inside yet. You can use **2020608_Integer_Histogram.cpp** for post-processing the duration histogram. Compilation. In both cases ca be compiled directly with the g++ C++ compiler. The only parameters you can set are the *decay probability* p=1/s setting s and the *number of realizations*.
 
-After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights the distribution in order to get the correct distribution. For example:
+After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights the distribution in order to get the correct distribution as was explained in the example with the die.
 
 
 ## (2) Decay of an arbitrary number of nuclei.
+
+- Obtain the decay law experimentally with a set of (at least 20) dice or coins. Take into account that the event of decay (getting an specific number) is independent. There is no correlation between the dice.
+
+- Obtain the half life for the dice experiment. Check that the obtained half-life is compatible with:
