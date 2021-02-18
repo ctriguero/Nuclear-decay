@@ -3,6 +3,7 @@
 
 ## (1) Decay of one nucleus.
 
+- Do first the experiment with a die (or a coin) for example.
 - Learn how to obtain the **distribution of durations**, D(t), for different decay probabilities (**duration** is the time you have to wait for the nucleus to decay). To obtain the right distribution you will need to learn how to reweight a distribution.
 - Compare the obtained distributions with the **[binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution#:~:text=In%20probability%20theory%20and%20statistics,%2Fone%20(with%20probability%20p))**. Fit parameters.
 
