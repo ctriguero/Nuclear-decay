@@ -43,6 +43,7 @@ After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights t
 |4                          |  3             |
 
 
-- Plot the graph Number of rolls to get 1 vs Reweighted distribution. Observe where is the maximum of the distribution.
+- Plot the graph  Undecayed nucleus vs Number of rolls.
+- Obtain the half life for the dice experiment. In other words, how many number of rolls are needed to have half of the initial dice undecayed?. Check that the obtained half-life is compatible with:
 
-- Obtain the half life for the dice experiment. Check that the obtained half-life is compatible with:
+T_1/2=ln 2/lambda
