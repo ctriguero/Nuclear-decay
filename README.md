@@ -20,6 +20,8 @@ If you roll the die 10 times you can obtain: 10 times the result 1 roll. Only 5 
 |9                          |  2             |  9 x 2=18               |
 |10                         |  0             |  10 x 0=0               |
 
+- Plot the graph Number of rolls to get 1 vs Reweighted distribution. Observe where is the maximum of the distribution.
+
 - Learn how to obtain the **distribution of durations**, D(t), for different decay probabilities (**duration** is the time you have to wait for the nucleus to decay). To obtain the right distribution you will need to learn how to reweight a distribution.
 - Compare the obtained distributions with the **[binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution#:~:text=In%20probability%20theory%20and%20statistics,%2Fone%20(with%20probability%20p))**. Fit parameters.
 
@@ -30,6 +32,17 @@ After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights t
 
 ## (2) Decay of an arbitrary number of nuclei.
 
-- Obtain the decay law experimentally with a set of (at least 20) dice or coins. Take into account that the event of decay (getting an specific number) is independent. There is no correlation between the dice.
+- Obtain the decay law experimentally with a set of (at least 20) dice or coins. Take into account that the event of decay (getting an specific number) is independent. There is no correlation between the dice. Build a table with number of rolls and undecayed nucleus.
+
+| Number of rolls           |  Undecayed nucleus     |
+|---------------------------|----------------|
+|0                          |  20            |
+|1                          |  12            |
+|2                          |  6             |
+|3                          |  4             |
+|4                          |  3             |
+
+
+- Plot the graph Number of rolls to get 1 vs Reweighted distribution. Observe where is the maximum of the distribution.
 
 - Obtain the half life for the dice experiment. Check that the obtained half-life is compatible with:
