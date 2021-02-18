@@ -46,4 +46,4 @@ After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights t
 - Plot the graph  Undecayed nucleus vs Number of rolls.
 - Obtain the half life for the dice experiment. In other words, how many number of rolls are needed to have half of the initial dice undecayed?. Check that the obtained half-life is compatible with:
 
-T_1/2=ln 2/lambda
+$T_{1/2}=\frac{\ln(2)}{\lambda}$
