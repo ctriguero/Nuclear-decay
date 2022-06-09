@@ -29,6 +29,7 @@ If you roll the die 10 times you can obtain: 10 times the result 1 roll. Only 5 
 
 After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights the distribution in order to get the correct distribution as was explained in the example with the die.
 
+![Screenshot](test.png)
 
 ## (2) Decay of an arbitrary number of nuclei.
 
