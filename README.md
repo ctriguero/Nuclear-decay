@@ -32,6 +32,11 @@ After the generation of the numbers **N1_Radioactivity_2020529.cpp** reweights t
 
 ## (2) Decay of an arbitrary number of nuclei.
 
+- Compilation:
+g++ Radioactivity_191201.cpp
+- Use:
+ ./a.out -n [Number of unstable nuclei] -p [Probability per unit of time 1/p]
+
 - Obtain the decay law experimentally with a set of (at least 20) dice or coins. Take into account that the event of decay (getting an specific number) is independent. There is no correlation between the dice. Build a table with number of rolls and undecayed nucleus.
 
 | Number of rolls           |  Undecayed nucleus     |
